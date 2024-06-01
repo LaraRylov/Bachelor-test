@@ -299,18 +299,3 @@ class OCT:
             rules[t] = r
 
         return rules
-
-  def print_solution(self):
-      for j in range(self.p):
-        for t in self.index_branch_nodes:
-          print('a',j,t,'=',self.a[j,t].x)
-
-
-  def print_solution(self):
-    a_var = []
-    for t in self.index_branch_nodes:
-        for j in range(self.p):
-            if self._a[j,t] == 1:
-               a_var[t] = 1
-
-    return a_var
