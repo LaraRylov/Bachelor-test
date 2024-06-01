@@ -38,7 +38,7 @@ class OCT:
 # Labels – giver alle vores klasser en gang
     self.labels = np.unique(y)
 
-# Scale data???
+# Scale data
     self.scales = np.max(x, axis=0)     #Finder den maksimale værdi for hver feature (kolonne)
     self.scales[self.scales == 0] = 1   #Hvis der findes maks-værdier på 0, erstattes de med 1 for at undgå divison med 0 senere
 
