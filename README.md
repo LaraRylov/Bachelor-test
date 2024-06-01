@@ -1,6 +1,5 @@
 # Optimal Decision Trees
 Bachelor thesis written by 
-
 Luna Veje Lynge & Lara Naym Rylov
 
 Copenhagen University
